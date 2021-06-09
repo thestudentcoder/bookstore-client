@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 13.1.0
+script:
+  - "npm run build"
+  - "npm run test:nowatch"
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_TOKEN
+  app: bookstore-demo-client
