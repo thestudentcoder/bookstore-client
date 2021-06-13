@@ -3,7 +3,34 @@
 exports[`App component should render app without error 1`] = `
 <DocumentFragment>
   <div>
-    App
+    <div
+      class="MuiBox-root MuiBox-root-1"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2"
+      >
+        <header
+          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+            >
+              Book Store
+            </h6>
+          </div>
+        </header>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-3"
+      >
+        <div>
+          Layout
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
